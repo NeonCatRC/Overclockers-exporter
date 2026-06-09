@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.log
+
+# Downloaded archives are DATA, not code — keep them out of git.
+# By convention this tool's README suggests --out archives/<blog-name>
+/archives/
+
+# If you instead use the default output (./<blog-name>), add that folder here,
+# e.g.:
+# /Hard-Workshop/
+
+# OS
+.DS_Store
+Thumbs.db
